@@ -1,0 +1,111 @@
+/**
+  * Body
+  */
+
+body {
+  background: #e5ddc861;
+  padding-top: 1%;
+  padding-bottom: 2%;
+}
+
+body,
+p,
+h1,
+h2 {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  line-height: 1.55;
+  text-align: center;
+  color: #000;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/**
+  * Headers
+  */
+h1 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 19px;
+  font-style: italic;
+  font-weight: normal;
+}
+
+h2 {
+  margin-top: 6%;
+  margin-bottom: 2%;
+  font-size: 18px;
+}
+
+p {
+  font-size: 16px;
+}
+
+#p404 img {
+  width: 100px;
+  min-width: 100px;
+}
+
+/**
+  * 404 image
+  */
+img {
+  display: block;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 37%;
+  min-width: 300px;
+}
+
+/**
+  * Hyperlink color
+  */
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/**
+  * Reduce text size
+  */
+@media all and (min-width:768px) {
+  h1 {
+    font-size: 21px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+}
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 30px;
+  border-right: 1px solid #000;
+  padding-right: 30px;
+  /* bold font */
+  font-weight: bold;
+}
+
+nav ul li:last-child {
+  border-right: none; /* Removes border from the last item */
+}
